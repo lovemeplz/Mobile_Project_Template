@@ -10,4 +10,4 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 1.  基本页面
 2.  基本工具函数
 3.  基本脚本：提交验证等
-4.  文档、最佳实践等1
+4.  文档、最佳实践等
