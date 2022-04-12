@@ -1,1 +1,1 @@
-console.log('pre-commit-test::::')
+1

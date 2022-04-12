@@ -5,7 +5,7 @@ const routes = [
     name: 'notFound',
     path: '/:path(.*)+',
     redirect: {
-      name: 'Layout',
+      name: 'login',
     },
   },
   {
