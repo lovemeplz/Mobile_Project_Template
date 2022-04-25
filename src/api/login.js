@@ -4,7 +4,7 @@ import request from '@/utils/request'
 export function login (params) {
   return request({
     url: '/v1/index/login',
-    methods: ' POST',
+    methods: '  POST',
     data: params
   })
   // return new Promise((resolve, reject) => {
