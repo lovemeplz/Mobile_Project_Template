@@ -1,1 +1,1 @@
-console.log('pre-commit:::::')
+console.log('pre-commit::::::')
