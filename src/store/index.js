@@ -1,18 +1,11 @@
-import { createStore } from 'vuex'
+import { defineStore } from 'pinia'
 
-import app from './modules/app'
-import user from './modules/user'
- 
-import getters from './getters'
-
-
-export default createStore({
-  modules: {
-    app,
-    user,
-  },
-  state: {},
-  mutations: {},
-  actions: {},
-  getters
+export const useStore = defineStore('storeId', {
+  state: () => {
+    return {
+      counter: 0,
+      name: 'Eduardo',
+      isAdmin: true
+    }
+  }
 })

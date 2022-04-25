@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-
+import { getToken} from '../utils/auth'
 const routes = [
   {
     name: 'notFound',
@@ -31,11 +31,17 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
+  // 改变页面标题
   const title = to.meta && to.meta.title;
   if (title) {
     document.title = title;
   }
-  next();
+  // 路由权限   todo 
+  if (!getToken() && to.path !== '/login') {
+    next('/login')
+  } else {
+    next()
+  }
 });
 
 export { router };

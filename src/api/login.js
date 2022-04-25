@@ -1,12 +1,17 @@
 import request from '@/utils/request'
 
 
-export function login () {
+export function login (params) {
   return request({
-    url: Login,
-    methods: 'post',
+    url: '/v1/index/login',
+    methods: 'POST',
     data: params
   })
+  // return new Promise((resolve, reject) => {
+  //   resolve({
+  //     token: 'xxxx-aaaa-ss'
+  //   })
+  // })
 }
 
 

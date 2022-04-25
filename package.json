@@ -1,5 +1,5 @@
 {
-  "name": "my-vue-app",
+  "name": "mobile_project_template",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -7,21 +7,26 @@
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "husky install",
-    "test": "node build/hooks/pre-commit.js"
+    "test": "node build/hooks/pre-commit.js",
+    "lint": "vite lint"
   },
   "dependencies": {
     "axios": "^0.26.1",
+    "dingtalk-jsapi": "^2.13.92",
+    "pinia": "^2.0.13",
     "vant": "^3.4.7",
     "vue": "^3.2.25",
-    "vue-router": "^4.0.14",
-    "vuex": "^4.0.2"
+    "vue-router": "^4.0.14"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.0",
+    "eslint": "^8.13.0",
+    "eslint-plugin-vue": "^8.6.0",
     "husky": "^7.0.4",
     "postcss-px-to-viewport": "^1.1.1",
     "sass": "^1.50.0",
     "sass-loader": "^12.6.0",
+    "vconsole": "^3.14.6",
     "vite": "^2.9.0",
     "vite-plugin-style-import": "1.4.1"
   }
