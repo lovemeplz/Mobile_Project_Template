@@ -11,7 +11,7 @@
     "lint": "vite lint"
   },
   "lint-staged": {
-    "src/**/*.js": "eslint"
+    "src/**/*.{vue,js.ts}": "eslint --fix"
   },
   "dependencies": {
     "axios": "^0.26.1",
