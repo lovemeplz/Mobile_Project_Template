@@ -8,7 +8,6 @@
     "preview": "vite preview",
     "prepare": "husky install",
     "precommit": "lint-staged",
-    "test": "node build/hooks/pre-commit.js",
     "lint": "vite lint"
   },
   "lint-staged": {
