@@ -1,14 +1,15 @@
 {
   "name": "mobile_project_template",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "husky install",
     "precommit": "lint-staged",
-    "lint": "vite lint"
+    "lint": "vite lint",
+    "release": "standard-version"
   },
   "lint-staged": {
     "src/**/*.{vue,js.ts}": "eslint --fix"
@@ -30,6 +31,7 @@
     "postcss-px-to-viewport": "^1.1.1",
     "sass": "^1.50.0",
     "sass-loader": "^12.6.0",
+    "standard-version": "^9.3.2",
     "vconsole": "^3.14.6",
     "vite": "^2.9.0",
     "vite-plugin-style-import": "1.4.1"
