@@ -6,11 +6,10 @@
 
 <script>
 export default {
-  name: 'HomePage1',
+  name: 'HomePage',
   components: {
     
   },
-
 }
 </script>
 
