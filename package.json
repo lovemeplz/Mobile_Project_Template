@@ -1,7 +1,7 @@
 {
   "name": "mobile_project_template",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,6 +13,10 @@
   },
   "lint-staged": {
     "src/**/*.{vue,js.ts}": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/xxx"
   },
   "dependencies": {
     "axios": "^0.26.1",
